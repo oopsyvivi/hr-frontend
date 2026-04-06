@@ -383,7 +383,7 @@ function EmployeeOvertimeView() {
   }
 
   async function handleSubmit(data) {
-    setSaving(true)
+    
     try {
       if (employeeId) {
         await API.post(`/overtime/apply/${employeeId}`, data)
@@ -405,7 +405,7 @@ function EmployeeOvertimeView() {
   }
 
   async function handleCancel(id) {
-    setSaving(true)
+    
     if (!window.confirm('Cancel this request?')) return
     try {
       await API.put(`/overtime/${id}/cancel`)
