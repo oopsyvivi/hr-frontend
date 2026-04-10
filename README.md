@@ -3,7 +3,7 @@
 Web application for the HR management system. It provides intuitive dashboards for HR/Admins and Employees, enabling management of employee data, attendance, leave requests, overtime, and payroll.
 
 <!-- Add your actual screenshot -->
-![Demo Screenshot](assets/hrms.gif)
+![Demo Screenshot](src/assets/hrms.gif)
 
 ## Features
 
