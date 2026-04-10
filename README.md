@@ -2,8 +2,7 @@
 
 Web application for the HR management system. It provides intuitive dashboards for HR/Admins and Employees, enabling management of employee data, attendance, leave requests, overtime, and payroll.
 
-<!-- Add your actual screenshot -->
-![Demo Screenshot](https://github.com/oopsyvivi/hr-frontend/blob/e12532c8afeb45a6ff4f9197282986b4146566d3/src/assets/hrms.gif)
+
 
 ## Features
 
@@ -17,6 +16,9 @@ Web application for the HR management system. It provides intuitive dashboards f
 - Overtime request approval/management
 - Payroll calculatibon and management
 
+<!-- Add your actual screenshot -->
+![Demo Screenshot](src/assets/hr.png)
+
 ### Employee Module
 - Personalized employee dashboard
 - Profile management
@@ -24,6 +26,8 @@ Web application for the HR management system. It provides intuitive dashboards f
 - Submit leave and overtime requests
 - Payslip history
 
+<!-- Add your actual screenshot -->
+![Demo Screenshot](src/assets/employee.png)
 ## Tech Stack
 
 - **JavaScript** (React + Vite)
