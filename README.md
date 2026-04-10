@@ -1,16 +1,76 @@
-# React + Vite
+# HR Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web application for the HR management system. It provides intuitive dashboards for HR/Admins and Employees, enabling management of employee data, attendance, leave requests, overtime, and payroll.
 
-Currently, two official plugins are available:
+<!-- Add your actual screenshot -->
+![Demo Screenshot](assets/hrms.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+### HR/Admin Module
+- Dashboard with overall statistics
+- Employee management (add, update, remove employees)
+- Department management
+- Attendance tracking (daily, weekly, monthly views)
+- Shift and off-day scheduling
+- Leave request approval/management
+- Overtime request approval/management
+- Payroll calculation and management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Employee Module
+- Personalized employee dashboard
+- Profile management
+- Attendance calendar (view daily IN/OUT records)
+- Submit leave and overtime requests
+- Payslip history
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **JavaScript** (React + Vite)
+- **HTML / CSS**
+- **RESTful API** integration (connects to backend services)
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/oopsyvivi/hr-frontend.git
+   cd hr-frontend
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## Usage
+
+- **Admin/HR Login:**  
+  - Register or log in as an admin to access your dashboard and manage employees.
+  - Admins can add new employees.
+- **Employee Accounts:**  
+  - Employees do not self-register. When an admin adds a new employee, the system automatically generates an employee account with a default   password (Employee Code).
+- **Feature Workflow:**
+  - Admin/HR can:
+    - manage requests, review attendance, and handle leave and overtime approvals.
+  - Employees can:
+    - Track their own daily IN/OUT attendance data.
+    - Apply for Forgot Card (missed punch), leave, and overtime requests.
+    - View payslip and attendance history.
+
+## Project Structure
+
+```
+src/
+  components/   # UI components
+  pages/        # Application pages
+  services/     # API calls
+  assets/       # Images and static files
+```
+
+## Questions
+
+For any questions or suggestions, feel free to [open an issue](https://github.com/oopsyvivi/hr-frontend/issues) or contact [oopsyvivi](https://github.com/oopsyvivi).
